@@ -6,6 +6,13 @@ print("2--> Mostrar Votos. ")
 print("3--> SALIR")
 print("_____________________")
 
+#iniciar contadores
+contadorSenado=0
+contadorCamara=0
+pacto=0
+centro=0
+equipo=0
+
 while(True):
     opcion=int(input("Ingresa una opción: "))
     if(opcion==1): 
@@ -21,12 +28,12 @@ while(True):
         
 
         if(opcion==1):
-            contadorSenado=1
+           
             
             contadorSenado+=contadorSenado
 
         elif(opcion==2):
-            contadorCamara=1
+            
             
             contadorCamara+=contadorCamara
         elif(opcion==3):
